@@ -48,6 +48,7 @@
          "-H:Preserve=package=java.nio"
          "-H:Preserve=package=java.nio.channels"
          "-H:Preserve=package=java.nio.channels.spi"
+         "-H:Preserve=package=sun.net.www.protocol.http"
          "-H:Preserve=module=java.logging"
          "-H:Preserve=module=java.sql"
          (str "-Djava.home=" (System/getenv "GRAALVM_HOME"))
